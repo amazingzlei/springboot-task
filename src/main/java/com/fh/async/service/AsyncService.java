@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 public class AsyncService {
 
     @Async
-    public void async(){
+    public void async() {
         try {
             Thread.sleep(5000);
         } catch (InterruptedException e) {
@@ -30,7 +30,7 @@ public class AsyncService {
      * 星期可以加入 L C # #用于确定时间 格式：星期几+1#数字 如 4#2表示第二个星期三
      */
 //    @Scheduled(cron = "${time}")
-    public void testScheduled(){
+    public void testScheduled() {
         System.out.println("hello...");
     }
 }

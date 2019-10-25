@@ -12,7 +12,7 @@ public class AsyncController {
     private AsyncService service;
 
     @RequestMapping("async")
-    public String async01(){
+    public String async01() {
         service.async();
         return "success";
     }
